@@ -12,6 +12,10 @@ from modules.Photos import Photos
 from definition import *
 
 app = Flask(__name__)
+from flask import Flask
+
+app = Flask(__name__)  # Initialize Flask app
+app.config['SECRET_KEY'] = 'your_secret_key_here'  # 🔹 Configure secret key
 ALLOWED_EXTENSIONS = set(['jpg', 'jpeg'])
 session = {}
 
@@ -164,4 +168,6 @@ if __name__  == "__main__":
 
 
 
+def create_app():
+    return app
 
