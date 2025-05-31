@@ -73,6 +73,10 @@ pip install pytest flask-testing
 
 -This will test CRUD functionality, session management, and photo uploads.
 
+# Image Disclaimer
+Some added images used in this project are for demonstration purposes only. The project does not claim ownership or copyright of any images included. 
+All images belong to their respective owners, and proper attribution should be given where required.
+
 License
 This project is open-source under the MIT License.
 
