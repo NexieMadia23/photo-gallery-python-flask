@@ -3,9 +3,8 @@
 ## Overview
 This project is a **Flask-based image gallery** that allows users to:
 - Create, Read, Update, and Delete (CRUD)** galleries.
-- Upload photos with captions** inside galleries.
+- Upload photos insde the folder
 - Manage user sessions** (login/logout).
-- Secure file handling** (`secure_filename`).
 - Provide a simple UI for managing galleries**.
 
 ## Features
