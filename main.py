@@ -15,7 +15,7 @@ app = Flask(__name__)
 from flask import Flask
 
 app = Flask(__name__)  # Initialize Flask app
-app.config['Flash_gallery'] = 'Flask-gallery' #Configure secret key
+app.config['SECRET_KEY'] = 'Flask-gallery' 
 ALLOWED_EXTENSIONS = set(['jpg', 'jpeg'])
 session = {}
 
